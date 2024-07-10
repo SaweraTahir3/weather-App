@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+}
+
+body {
+    background-image: url('./images/paper-cutout-cloud-with-word-cloud-it_1340-35188.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container {
+    width: 600px;
+    margin: 150px auto;
+}
+
+.heading {
+    text-align: center;
+    justify-content: center;
+    margin: 15px;
+    font-size: 3.9rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    position: absolute;
+    top: 15px;
+    left: 37%;
+}
+
+.inputs {
+    padding: 2rem 0 0.5rem 0;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(122, 122, 156, 0.7);
+    height: 660px;
+    z-index: 1;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.inputs input[type="text"] {
+    height: 3rem;
+    width: 20rem;
+    background: #212121;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin-right: 4px;
+    border-radius: 29px;
+    cursor: pointer;
+    color: rgb(234, 228, 228);
+    
+}
+
+.inputs input[type="submit"] {
+    height: 4rem;
+    width: 6rem;
+    background: rgb(9, 9, 10);
+    font-weight: bold;
+    color: rgb(234, 220, 220);
+    font-size: 1.5rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.display {
+    text-align: center;
+    width: 520px;
+    color: #16a864;
+}
+
+.wrapper {
+text-align: center;
+justify-content: center;
+align-items: center;
+    height: 45vh;
+    width: 40vh;
+  border-radius: 50px;
+    display: inline ;
+    margin: -70px;
+
+}
+
+.wrapper h2 {
+    padding: 5px 0;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+
+}
+
+.wrapper p {
+    margin: 20px 50px;
+    margin-right: 0px;
+    color: black;
+    font-size: 2rem;
+
+}
+
+.wrapper h2 span {
+    font-size: 3rem;
+    color: #0f0d10;
+    font-weight: 900;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 170px;
+}
+
+.wrapper p span {
+    color: rgb(2, 2, 2);
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#cityoutput {
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;
+    margin-left: 30px;
+    justify-content: center;
+}
+
+#temp {
+    display: inline;
+    width: 100px;
+    margin-left: 0px;
+    
+}
+
+#wind {
+    display: inline;
+    width: 100px;
+    margin-left: 10px;
+}
+#weather-icon {
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+}
